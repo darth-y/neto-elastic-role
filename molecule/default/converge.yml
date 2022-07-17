@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include neto-elastic-role"
+      include_role:
+        name: "neto-elastic-role"
